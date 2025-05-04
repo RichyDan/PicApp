@@ -2,8 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PicApp.Pages.LoginPage"
-             BackgroundImageSource="back-image.jpg"
-             NavigationPage.HasNavigationBar="False">
+             BackgroundImageSource="HomeBackground.jpg"
+             NavigationPage.HasNavigationBar="False"
+             >
     <ContentPage.Content>
         <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
             <Label x:Name="lPin"
@@ -33,7 +34,7 @@
             <Button x:Name="endPwdButton" 
                     IsEnabled="False"
                     Text="Войти" CornerRadius="30"
-                    Clicked="endPwdButton_Click"
+                    Clicked="enterButton_Click"
                     Margin="20,0"/>
         </StackLayout>
     </ContentPage.Content>
